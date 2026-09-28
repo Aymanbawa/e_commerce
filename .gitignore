@@ -29,5 +29,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# generated frontend, test reports and private handoff credentials
+public/static/app.js
+public/static/app.css
+test-results/
+playwright-report/
+tests/*.png
+.private/
+*.tar.gz
+*.zip
+.env.*
+!.env.example
+.dev.vars*
+
 # misc
 .DS_Store

@@ -1,0 +1,41 @@
+# =============================================================
+# .gitignore — E-Commerce SQL Portfolio Project
+# =============================================================
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MySQL credentials — NEVER commit these
+*.env
+.env
+.env.local
+mysql_credentials.txt
+db_config.txt
+connection.sql
+
+# MySQL Workbench files
+*.mwb.bak
+*.mwb~
+
+# Exported dumps — can be large, regenerate with setup.sql
+*.sql.gz
+*.sql.zip
+dump_*.sql
+backup_*.sql
+
+# ERD exports (regenerate from MySQL Workbench)
+# Comment this out if you WANT to commit your ERD image
+# docs/erd.png
+
+# Log files
+*.log
+error.log
